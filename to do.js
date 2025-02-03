@@ -16,12 +16,12 @@ while(true){
        console.log("------------------------------"); 
 
  } else if(req == "add"){
-    let task = prompt("what you want to add enter ");
+    let task = prompt("what do you want to add");
     todo.push(task);
     console.log("Task Added");
 
  } else if(req == "delete"){
-    let idx = prompt("what do you want to delete");
+    let idx = prompt("what do you want to delete enter index");
     todo.splice(idx, 1);
     console.log("task added");
 
